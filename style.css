@@ -1,0 +1,77 @@
+/*.inicio{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}*/
+
+* {
+    font-family: 'Figtree', sans-serif;
+}
+
+.img-insta{
+  height: 30px;
+}
+
+.logo-insta{
+ height: 38px;
+
+}
+
+.icon{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
+
+h2{
+    padding: 13%;
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    margin: 9%;
+    height: 0px;
+    margin-right: 90%;
+    margin-left: 19%;
+}
+
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil1{
+    padding: 50px;;
+    height: -10%;
+
+}
+
+hr{
+  margin-left: 12px;
+}
+
+.barra-pesquisa input {
+    width: 250px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #efefef;
+    font-size: 14px;
+    outline: none;
+}
+
+.Pesquisa{
+    margin-left: 40px;
+}
