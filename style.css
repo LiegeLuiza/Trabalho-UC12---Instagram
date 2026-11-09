@@ -17,11 +17,12 @@
 
 }
 
-.icon{
-    height: 150px;
-    display: flex;
-    align-items: center;
-    padding: 4%;
+.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ff3158;
 }
 
 h2{
@@ -30,14 +31,10 @@ h2{
     align-items: center;
 }
 
-h3{
-    padding: 10%;
-    display: flex;
-    align-items: center;
-    margin: 9%;
-    height: 0px;
-    margin-right: 90%;
-    margin-left: 19%;
+.perfil1 h3 {
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
 }
 
 
@@ -52,10 +49,11 @@ h3{
     flex-direction: row;
 }
 
-.perfil1{
-    padding: 50px;;
-    height: -10%;
-
+.perfil1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 hr{
@@ -72,6 +70,226 @@ hr{
     outline: none;
 }
 
-.Pesquisa{
-    margin-left: 40px;
+.Pesquisa {
+    margin: 30px 40px;
+}
+.Pesquisa input {
+    width: 250px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #efefef;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.conteudo {
+    flex: 1;
+    padding: 25px;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Pesquisa {
+    margin: 0;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.acoes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.acoes button {
+    background-color: #ff0080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stories {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-story {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    border: 2px solid #ff3158;
+}
+/*falar pro sor que o p serve para deixar as fotinhos dos stories juntas*/
+.story p {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.publicacao {
+    display: flex;
+    width: 100%;
+    height: 580px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.foto-publicacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detalhes-publicacao {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ddd;
+}
+
+.perfil-publicacao {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.perfil-publicacao p {
+    margin: 3px 0;
+    color: #999;
+    font-size: 12px;
+}
+
+.perfil-publicacao span {
+    margin-left: auto;
+}
+
+.foto-perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bbb;
+    border: 2px solid #ff3158;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    flex: 1;
+}
+
+.comentario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.comentario p {
+    color: #555;
+}
+
+.foto-comentario {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.curtidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+}
+
+.curtidas span:first-child {
+    color: #ed405c;
+}
+
+.adicionar-comentario {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+}
+
+.adicionar-comentario input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:wheat;
+    border-radius: 5px;
+    outline: none;
+}
+
+.adicionar-comentario span {
+    color: #65aaf5;
+    cursor: pointer;
+}
+
+
+.informacoesperfil {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.informacoesperfil div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoesperfil strong {
+    font-size: 14px;
+}
+
+.informacoesperfil p {
+    font-size: 11px;
+    margin: 4px 0;
+    color: #777;
 }
